@@ -22,6 +22,10 @@ Decompression is also done in memory entirely before output.
 ## Build:
 - `gcc -Wall -o dejsonlz4 src/dejsonlz4.c src/lz4.c`
 
+
+## Build on My macOS, macBookPro 2018, it works on macOS Big Sur, Mon 20 Sep 12:09:59 2021 
+- `gcc -Wall -o /usr/local/bin/dejsonlz4 src/dejsonlz4.c src/lz4.c`
+
 ## Windows note:
 - `dejsonlz4` on Windows does not support unicode path/file names at this time.
 
